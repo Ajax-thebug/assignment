@@ -2,9 +2,12 @@
 
 body{
     margin: 0;
+    padding-right: 2em;
+    padding-left: 2em;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+
 
 }
 
@@ -16,7 +19,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
 }
 
 .header{
@@ -38,6 +41,7 @@ body{
 .header h2 {
     display: flex;
     font-size: xx-large;
+    
     justify-content: center;
     align-items: center;
     
@@ -84,14 +88,13 @@ body{
 
   .hero-section h2{
         
-
+        font-weight: 400;
         font-size: 43px;
   }
 
-  .hero-section description p{
+  .hero-section{
         
     color: aliceblue;
-    font-size: 43px;
 }
 
 .blue-btn{
@@ -107,6 +110,15 @@ body{
     font-family: poppins;
     font-size: 16px;
     border-radius: 6px;
+}
+
+@media screen and (max-width: 478px) {
+    
+    .header h2{
+        font-size: 28px;
+
+    }
+
 }
 
 
